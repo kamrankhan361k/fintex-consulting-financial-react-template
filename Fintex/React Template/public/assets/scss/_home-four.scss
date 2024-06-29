@@ -1,0 +1,132 @@
+.home-four{
+    font-family: $nunito;
+    font-size: 16px;
+    line-height: 32px;
+    & h1,h2,h3,h4,h5{
+        font-weight: 800;
+    }
+    & span.sub-title{
+        color: $orange;
+    }
+    & .header-navigation{
+        & .main-menu{
+            & ul{
+                & > li{
+                    & a{
+                        &.active{
+                            color: $orange;
+                        }
+                    }
+                    & .sub-menu{
+                        & li{
+                            &:hover {
+                                & > a{
+                                    color: $orange;
+                                }
+                            }
+                            &.has-children{
+                                &:hover{
+                                    & > a{
+                                        &:after{
+                                            color: $orange;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:hover{
+                        & > a{
+                            color: $orange;
+                            &:before{
+                                background-color: $orange;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.breakpoint-on{
+            & .nav-menu{
+                & .main-menu{
+                    & ul li{
+                        & .dd-trigger{
+                            background-color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    & .banner-four{
+        & .hero-content{
+            & span.tag-line{
+                color: $orange;
+            }
+        }
+    }
+    & .service-item-four{
+        & .icon{
+            & i{
+                color: $orange;
+            }
+        }
+        & .text{
+            & h3.title{
+                &:hover{
+                    color: $orange;
+                }
+            }
+        }
+    }
+    & .features-item-four{
+        &:hover{
+            & .icon{
+                & i{
+                    color: $orange;
+                }
+            }
+        }
+    }
+    & .footer-three{
+        .footer-content{
+            & ul.widget-nav{
+                & li{
+                    & a{
+                        color: #6b6b6b;
+                        & span.status{
+                            background-color: #18a0ca;
+                            color: #fff;
+                        }
+                        &:hover{
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+            & .social-link{
+                & li{
+                    & a{
+                        color: #060815;
+                        background-color: rgba(36, 40, 121, .102);
+                        &:hover{
+                            background-color: $orange;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+            & .contact-info-box{
+                & .text{
+                    & p{
+                        &:hover{
+                            & a{
+                                color: $orange;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

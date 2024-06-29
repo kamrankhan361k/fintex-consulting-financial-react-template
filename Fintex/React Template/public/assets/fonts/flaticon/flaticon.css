@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?bfb06dd86d134d222a8f95a382d83281") format("truetype"),
+url("./flaticon.woff?bfb06dd86d134d222a8f95a382d83281") format("woff"),
+url("./flaticon.woff2?bfb06dd86d134d222a8f95a382d83281") format("woff2"),
+url("./flaticon.eot?bfb06dd86d134d222a8f95a382d83281#iefix") format("embedded-opentype"),
+url("./flaticon.svg?bfb06dd86d134d222a8f95a382d83281#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-fukuoka-japan-flag-symbol:before {
+    content: "\f101";
+}
+.flaticon-left-quote:before {
+    content: "\f102";
+}
+.flaticon-stats:before {
+    content: "\f103";
+}
+.flaticon-support:before {
+    content: "\f104";
+}
+.flaticon-digital-strategy:before {
+    content: "\f105";
+}
+.flaticon-data:before {
+    content: "\f106";
+}
+.flaticon-competitive:before {
+    content: "\f107";
+}
+.flaticon-business:before {
+    content: "\f108";
+}
+.flaticon-profits:before {
+    content: "\f109";
+}
+.flaticon-folder-management:before {
+    content: "\f10a";
+}
+.flaticon-finance:before {
+    content: "\f10b";
+}
+.flaticon-left-quote-1:before {
+    content: "\f10c";
+}
+.flaticon-quotation:before {
+    content: "\f10d";
+}
+.flaticon-save-money:before {
+    content: "\f10e";
+}
+.flaticon-investment:before {
+    content: "\f10f";
+}
+.flaticon-piggy-bank:before {
+    content: "\f110";
+}
+.flaticon-investment-1:before {
+    content: "\f111";
+}
+.flaticon-investment-2:before {
+    content: "\f112";
+}
+.flaticon-pie-chart:before {
+    content: "\f113";
+}
+.flaticon-user:before {
+    content: "\f114";
+}
+.flaticon-finance-1:before {
+    content: "\f115";
+}
+.flaticon-credit:before {
+    content: "\f116";
+}
+.flaticon-insurance:before {
+    content: "\f117";
+}
+.flaticon-personal-wealth:before {
+    content: "\f118";
+}
+.flaticon-database:before {
+    content: "\f119";
+}
+.flaticon-money-transfer:before {
+    content: "\f11a";
+}
+.flaticon-ringing:before {
+    content: "\f11b";
+}
+.flaticon-pie-chart-1:before {
+    content: "\f11c";
+}
+.flaticon-planning:before {
+    content: "\f11d";
+}
+.flaticon-testing:before {
+    content: "\f11e";
+}
+.flaticon-career:before {
+    content: "\f11f";
+}
+.flaticon-profits-1:before {
+    content: "\f120";
+}
+.flaticon-debit-card:before {
+    content: "\f121";
+}
+.flaticon-money:before {
+    content: "\f122";
+}
+.flaticon-problem-solving:before {
+    content: "\f123";
+}
+.flaticon-friend:before {
+    content: "\f124";
+}
+.flaticon-profit:before {
+    content: "\f125";
+}
+.flaticon-target:before {
+    content: "\f126";
+}
+.flaticon-search:before {
+    content: "\f127";
+}
+.flaticon-idea-1:before {
+    content: "\f128";
+}
+.flaticon-document:before {
+    content: "\f129";
+}
+.flaticon-customers:before {
+    content: "\f12a";
+}
+.flaticon-global:before {
+    content: "\f12b";
+}
+.flaticon-medal:before {
+    content: "\f12c";
+}
+.flaticon-target-1:before {
+    content: "\f12d";
+}
+.flaticon-customer-service:before {
+    content: "\f12e";
+}
+.flaticon-food:before {
+    content: "\f12f";
+}

@@ -1,0 +1,122 @@
+
+.home-five{
+    font-family: $nunito;
+    line-height: 32px;
+    & h1,h2,h3,h4,h5{
+        font-weight: 800;
+    }
+    & span.sub-title{
+        color: $orange;
+    }
+    & .header-navigation{
+        & .main-menu{
+            & ul{
+                & > li{
+                    & a{
+                        &.active{
+                            color: $orange;
+                        }
+                    }
+                    & .sub-menu{
+                        & li{
+                            &:hover {
+                                & > a{
+                                    color: $orange;
+                                }
+                            }
+                            &.has-children{
+                                &:hover{
+                                    & > a{
+                                        &:after{
+                                            color: $orange;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:hover{
+                        & > a{
+                            color: $orange;
+                            &:before{
+                                background-color: $orange;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.breakpoint-on{
+            & .nav-menu{
+                & .main-menu{
+                    & ul li{
+                        & .dd-trigger{
+                            background-color: $orange;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    & .features-item-five {
+        & .text{
+            & .btn-link{
+                color: $orange;
+                &:hover{
+                    color: $heading;
+                }
+            }
+        }
+    }
+    & .benefits-content-box{
+        & ul.check-style-two{
+            & li{
+                &:before{
+                    background-color: $green;
+                }
+            }
+        }
+    }
+    & .projects-slider-two{
+        & .slick-dots{
+            & li{
+                &.slick-active{
+                    border-color: $green;
+                }
+                &:after{
+                    background-color: $green;
+                }
+            }
+        }
+    }
+    & .footer-three{
+        .footer-content{
+            & ul.widget-nav{
+                & li{
+                    & a{
+                        color: #6b6b6b;
+                        & span.status{
+                            background-color: #18a0ca;
+                            color: #fff;
+                        }
+                        &:hover{
+                            color: $orange;
+                        }
+                    }
+                }
+            }
+            & .social-link{
+                & li{
+                    & a{
+                        color: #060815;
+                        background-color: rgba(36, 40, 121, .102);
+                        &:hover{
+                            background-color: $orange;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

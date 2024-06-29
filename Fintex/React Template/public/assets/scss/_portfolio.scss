@@ -1,0 +1,406 @@
+
+
+/*---==================
+    08. Portfolio css 
+=================----*/
+
+.projects-slider-one{
+    margin-left: -15px;
+    margin-right: -15px;
+    & .slick-track{
+        padding-bottom: 30px;
+    }
+    & .project-item{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+.projects-slider-two{
+    margin-left: -15px;
+    margin-right: -15px;
+    & .project-item-five,
+    & .project-item-two{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    & ul.slick-dots{
+        text-align: center;
+    }
+}
+
+.project-item{
+    &:hover{
+        & .img-holder{
+            & .project-hover{
+                opacity: 1;
+                visibility: visible;
+                @include transform(translateY(30px));
+            }
+        }
+    }
+    & .img-holder{
+        position: relative;
+        & img{
+            width: 100%;
+        }
+        & .project-hover{
+            position: absolute;
+            bottom: 0;
+            right: 25px;
+            visibility: hidden;
+            opacity: 0;
+            @include transform(translateY(0px));
+            @include transition(.3s);
+        }
+        & .hover-content{
+            position: relative;
+            max-width: 255px;
+            padding: 30px 30px 20px;
+            background-color: $primary;
+            & .icon-btn{
+                position: absolute;
+                top: -22px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                border-radius: 50%;
+                @extend %flex-center;
+                background-color: #fff;
+                font-size: 18px;
+                color: $primary;
+                &:hover{
+                    background-color: $heading;
+                    color: #fff;
+                }
+            }
+            & .icon{
+                flex: 0 0 50px;
+                max-width: 50px;
+                margin-right: 20px;
+                & i{
+                    font-size: 50px;
+                    color: #fff;
+                    line-height: 1;
+                }
+            }
+            & .text{
+                & h3.title{
+                    font-size: 20px;
+                    line-height: 25px;
+                    color: #fff;
+                    &:hover{
+                        color: $heading;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.project-item-two{
+    &:hover{
+        & .project-content{
+            & .icon-btn{
+                & i{
+                    background-color: $secondary;
+                    color: #fff;
+                    box-shadow: 0px 10px 60px 0px rgba(13, 206, 181, 0.5);
+                }
+            }
+        }
+        
+    }
+    & .img-holder{
+        & img{
+            width: 100%;
+        }
+    }
+    & .project-content{
+        position: relative;
+        padding-top: 20px;
+        & h3.title{
+            &:hover{
+                color: $secondary;
+            }
+        }
+        & .icon-btn{
+            position: absolute;
+            top: -30px;
+            right: 25px;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            background-color: #fff;
+            @extend %flex-center;
+            & i{
+                width: 55px;
+                height: 55px;
+                border-radius: 50%;
+                @extend %flex-center;
+                background-color: #fff;
+                box-shadow: 0px 10px 60px 0px rgba(159, 159, 159, 0.3);
+                color: $secondary;
+                @include transition(.3s);
+            }
+        }
+    }
+}
+
+.project-filter{
+    & .filter-btn{
+        & li{
+            display: inline-block;
+            font-family: $manrope;
+            font-weight: 800;
+            color: #74787c;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            @include transition(.3s);
+            & span.number{
+                vertical-align: super;
+                visibility: hidden;
+                opacity: 0;
+                @include transition(.4s);
+            }
+            &.active{
+                color: $primary;
+                & span.number{
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+.project-item-three{
+    &:hover{
+        & .project-content{
+            background-color: $primary;
+            @include transform(translateY(-30px));
+            & h3.title{
+                color: #fff;
+            }
+            & .cat-btn{
+                color: #fff;
+            }
+            & .icon-btn{
+                top: -22px;
+                visibility: visible;
+                opacity: 1;
+            }
+        }
+        
+    }
+    & .img-holder{
+        & img{
+            width: 100%;
+        }
+    }
+    & .project-content{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        background-color: #fff;
+        padding: 20px 30px 25px;
+        @include transition(.3s);
+        & h3.title{
+            letter-spacing: -0.03em;
+        }
+        & .icon-btn{
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: #fff;
+            color: $primary;
+            @extend %flex-center;
+            visibility: hidden;
+            opacity: 0;
+            @include transition(.4s);
+        }
+    }
+}
+.project-item-four{
+    &:hover{
+        & .img-holder{
+            & .project-hover{
+                visibility: visible;
+                opacity: 1;
+                & .hover-content{
+                    & .icon-btn{
+                        @include transform(translateY(0px));
+                    }
+                }
+            }
+        }
+    }
+    & .img-holder{
+        position: relative;
+        overflow: hidden;
+        & img{
+            width: 100%;
+        }
+        & .project-hover{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(11 12 14 / 80%);
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+            visibility: hidden;
+            opacity: 0;
+            @include transition(.3s);
+            & .hover-content{
+                padding: 23px 20px;
+                & h3.title{
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #fff;
+                }
+                & p{
+                    color: #fff;
+                }
+                & .icon-btn{
+                    width: 45px;
+                    height: 45px;
+                    border-radius: 50%;
+                    @extend %flex-center;
+                    background-color: $primary;
+                    color: #fff;
+                    position: absolute;
+                    top:20px;
+                    right: 20px;
+                    @include transform(translateY(20px));
+                    @include transition(.4s);
+                }
+            }
+        }
+    }
+}
+.project-item-five{
+    & .img-holder{
+        & img{
+            width: 100%;
+        }
+    }
+    & .project-content{
+        position: relative;
+        padding: 23px 30px 28px;
+        background-color: #fff;
+        box-shadow: 0px 10px 60px 0px rgba(205, 205, 205, 0.3);
+        &:after{
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            @include transform(translateX(-50%));
+            content: '';
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-bottom: 10px solid #fff;
+        }
+        & h3.title{
+            &:hover{
+                color: $orange;
+            }
+        }
+    }
+}
+
+/* Project Details */ 
+
+.project-details-wrapper{
+    & .project-content{
+        & h2.title{
+            @media #{$xm}{
+                font-size: 32px;
+                line-height: 42px;
+            }
+        }
+    }
+    & .project-information{
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(26, 26, 26, 0.102);
+        & .item-info{
+            & h4{
+                margin-bottom: 10px;
+            }
+            & p{
+                & a{
+                    &:hover{
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+    & .content-block{
+        & h3.title{
+            font-size: 30px;
+            margin-bottom: 17px;
+        }
+        & p{
+            margin-bottom: 20px;
+        }
+    }
+}
+
+.post-navigation-two{
+    & .post-nav-item{
+        & .thumb{
+            flex: 0 0 150px;
+            max-width: 150px;
+            margin-right: 40px;
+            @media #{$xm}{
+                margin-right: 20px;
+            }
+            & img{
+                width: 100%;
+            }
+        }
+        & .content{
+            & h6{
+                font-size: 24px;
+                line-height: 35px;
+                margin-bottom: 10px;
+                @media #{$xm}{
+                    font-size: 16px;
+                    line-height: 28px;
+                }
+                &:hover{
+                    color: $primary;
+                }
+            }
+            & p{
+                & a{
+                    &:hover{
+                        color: $primary;
+                    }  
+                }
+            }
+        }
+        &.next-post{
+            direction: rtl;
+            text-align: right;
+            & .thumb{
+                margin-right: 0;
+                margin-left: 40px;
+                @media #{$xm}{
+                    margin-left: 20px;
+                }
+            }
+        }
+    }
+}

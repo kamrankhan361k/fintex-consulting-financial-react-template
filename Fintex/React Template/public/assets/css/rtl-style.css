@@ -1,0 +1,1175 @@
+
+.topbar-one {
+    padding-left: 0px;
+    padding-right: 270px;
+}
+.topbar-one .top-left span.text i{
+    margin-right: 0;
+    margin-left: 7px;
+}
+.header-navigation .navbar-toggler{
+    margin-left: 0;
+    margin-right: 30px;
+}
+.navigation-one .nav-inner-menu{
+    margin-left: 0;
+    margin-right: 50px;
+}
+.navigation-one .nav-right-item .call-button {
+    margin-right: 0px;
+    margin-left: 35px;
+}
+.navigation-one .nav-right-item .call-button span i{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.header-navigation .main-menu ul > li > a:before{
+    left: auto;
+    right: 0;
+}
+.header-navigation .main-menu ul > li .sub-menu{
+    text-align: right;
+    left: auto;
+    right: 0;
+}
+.header-navigation .main-menu ul > li .sub-menu li .sub-menu{
+    left: auto;
+    right: 100%;
+}
+.header-navigation .main-menu ul > li.has-children > a:after{
+    float: left;
+    margin-left: 0;
+    margin-right: 5px;
+}
+.header-navigation .main-menu ul > li.has-children .sub-menu li.has-children > a:after{
+    margin-right: 0;
+    margin-left: 5px;
+}
+.main-btn:after{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.banner-one .shape.shape-two{
+    right: auto;
+    left: 10%;
+}
+.hero-content .hero-button a:not(:first-child) {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.sub-title:before {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.btn-link:after{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.features-one_img-box .features-img-two{
+    right: auto;
+    left: 0;
+}
+.features-one_img-box .quote-box-two{
+    left: auto;
+    right: 0;
+}
+.features-one_img-box .big-logo{
+    right: auto;
+    left: 50px;
+}
+.features-section .shape.shape-one{
+    left: auto;
+    right: 80px;
+}
+.service-item .text i,
+.service-item .hover-text .title-icon i{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.service-item .text i{
+    right: auto;
+    left: 20px;
+}
+.fact-img_one-box .quote-box-three{
+    left: auto;
+    right: -40px;
+}
+.text-left {
+    text-align: right!important;
+}
+.text-right {
+    text-align: left!important;
+}
+.quote-box-three .author-thumb-title .author-thumb{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.single-counter-item .icon{
+    margin-right: 0;
+    margin-left: 25px;
+}
+.testimonial-item .testimonial-content .author-thumb-title .author-thumb,
+.project-item .img-holder .hover-content .icon{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.project-item .img-holder .hover-content .icon-btn{
+    right: auto;
+    left: 20px;
+}
+.single-team-item .text p.mail i{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.single-team-item .img-holder .social-link{
+    right: auto;
+    left: 0;
+}
+.single-team-item .img-holder .share-btn{
+    right: auto;
+    left: 0;
+}
+.single-skill-item .chart-circle{
+    margin-right: 0;
+    margin-left: 30px;
+}
+.check-style-one li:before{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.faq-accordion-one .accordion-card .card-header h5:before{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.faq-accordion-one .accordion-card .card-header h5:after{
+    margin-left: 0;
+    margin-right: auto;
+}
+.faq-one_content-box blockquote{
+    border-left: none;
+    border-right: 3px solid #f94d1c;
+    padding-left: 0;
+    padding-right: 20px;
+}
+.blog-post-item-one .post-thumbnail .post-date{
+    right: auto;
+    left: 20px;
+}
+.newsletter-section .newsletter-from form i{
+    left: auto;
+    right: 30px;
+}
+.newsletter-section .newsletter-from form .form_checkbox label{
+    padding-left: 0;
+    padding-right: 30px;
+}
+.form_checkbox label span{
+    padding-left: 0;
+    padding-right: 30px;
+}
+.form_checkbox label span:before{
+    left: auto;
+    right: 0;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.form_checkbox label span:after{
+    left: auto;
+    right: 5px;
+}
+.newsletter-section .newsletter-from form .form_checkbox label span:after{
+    left: auto;
+    right: 4px;
+}
+.newsletter-section .newsletter-from form .form_checkbox label span a{
+    margin-left: 0;
+    margin-right: 5px;
+}
+.footer-content .social-link li:not(:first-child) {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+.footer-content ul.widget-nav li a:before{
+    margin-right: 0;
+    margin-left: 17px;
+}
+.contact-info-box .icon{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.footer-copyright .footer-nav ul li a:after{
+    left: auto;
+    right: 0;
+}
+.footer-copyright .footer-nav ul li:not(:last-child):after{
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.banner-two .hero-content .shape-bg{
+    left: auto;
+    right: -90px;
+}
+.about-five_image-box .big-logo{
+    right: auto;
+    left: 130px;
+}
+.about-two_content-box .avatar-box .thumb{
+    margin-right: 0;
+    margin-left: 25px;
+}
+.check-style-two li:before{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.faq-accordion-three .accordion-card .card-header{
+    margin-right:0;
+    margin-left: 10%;
+}
+.faq-accordion-three .accordion-card .card-header h5:after{
+    right: auto;
+    left: 70px;
+}
+.project-item-two .project-content .icon-btn{
+    right: auto;
+    left: 25px;
+}
+.testimonial-item-two .quote{
+    margin-right: 0;
+    margin-left: 50px;
+}
+.testimonial-item-two .testimonial-content .author-thumb-title .author-thumb{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.testimonial-wrapper-two .testimonial-dots{
+    right: auto;
+    left: 0;
+}
+.navigation-two .nav-inner-menu{
+    margin-left: 0;
+    margin-right: 150px;
+}
+.navigation-two .nav-right-item .sign-in-button{
+    margin-right: 0;
+    margin-left: 25px;
+}
+.banner-three .hero-content h1{
+    padding-right: 0;
+    padding-left: 16%;
+}
+.banner-three .hero-content p{
+    padding-right: 0;
+    padding-left: 20%;
+}
+.banner-three .shape.shape-one{
+    left: auto;
+    right: 5%;
+}
+.banner-three .shape.shape-two{
+    left: auto;
+    right: 7%;
+}
+.banner-three .shape.shape-three{
+    left: auto;
+    right: 17%;
+}
+.banner-three .shape.shape-four{
+    right: auto;
+    left: 40%;
+}
+.banner-three .shape.shape-five{
+    right: auto;
+    left: 17%;
+}
+.banner-three .shape.shape-six{
+    right: auto;
+    left: 15%;
+}
+.author-rating-box-two .author-thumb-title .author-thumb{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.about-six_image-box .shape.shape-one{
+    left: auto;
+    right: 50px;
+}
+.about-six_image-box .about-img-two{
+    right: auto;
+    left: 70px;
+}
+.features-two_img-box .shape.shape-one{
+    left: auto;
+    right: 50px;
+}
+.features-item-left-box .icon{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.author-rating-box .author-thumb-title .author-thumb{
+    margin-right: 0;
+    margin-left: 15px;
+}
+.newsletter-from-two .form_group .input-box .form_control{
+    padding-left: 0;
+    padding-right: 55px;
+}
+.newsletter-from-two .form_group .input-box:not(:last-child) .form_control{
+    border-right: none;
+    border-left: 1px solid rgba(255, 255, 255, 0.102);
+}
+.newsletter-from-two .form_group .input-box i{
+    left: auto;
+    right: 30px;
+}
+.form_checkbox_two label span{
+    text-align: right;
+    padding-left: 0;
+    padding-right: 30px;
+}
+.form_checkbox_two label span:before{
+    left: auto;
+    right: 0;
+    margin-right: 0;
+    margin-left: 10px;
+}
+.form_checkbox_two label span:after{
+    left: auto;
+    right: 7px;
+}
+.footer-content ul.widget-nav li a span.status{
+    margin-left: 0;
+    margin-right: 8px;
+}
+.footer-social-box ul.social-link li:not(:last-child) {
+    margin-right: 0px;
+    margin-left: 5px;
+}
+.banner-four .hero-content h1{
+    padding-right: 0;
+    padding-left: 10%;
+}
+.banner-four .hero-content .hero-button a:not(:first-child) {
+    margin-left: 0;
+    margin-right: 30px;
+}
+.banner-four .hero-content .hero-button .video-popup span{
+    margin-left: 0;
+    margin-right: 15px;
+}
+.banner-four .hero-img-box .circle-border{
+    left: auto;
+    right: 0;
+}
+.banner-four .hero-img-box .circle-border span:nth-child(1){
+    left: auto;
+    right: -55px;
+}
+.banner-four .hero-img-box .circle-border span:nth-child(2){
+    left: auto;
+    right: 25px;
+}
+.banner-four .shape.shape-blur{
+    left: auto;
+    right: 17%;
+}
+.banner-four .shape.shape-four{
+    right: auto;
+    left: 37%;
+}
+.service-one_image-box .service-one-img {
+    margin-right: 0px;
+    margin-left: 40px;
+}
+.service-one_image-box .shape.border-circle{
+    right: auto;
+    left: 7%;
+}
+.about-four_image-box .about-img-one{
+    left: auto;
+    right: -90px;
+}
+.about-four_image-box .about-img-two{
+    right: auto;
+    left: 0;
+}
+.about-four_image-box .about-img-three{
+    right: auto;
+    left: 55px;
+}
+.about-four_image-box .shape.fancy-shape-one{
+    left: auto;
+    right: -25px;
+}
+.about-four_image-box .shape.shape-one{
+    left: auto;
+    right: 0;
+}
+.faq-accordion-four .accordion-card .card-header h5:before{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.faq-accordion-four .accordion-card .card-header h5:after{
+    margin-left: 0;
+    margin-right: auto;
+}
+.testimonial-item-four .author-thumb{
+    margin-right: 0;
+    margin-left: 40px;
+}
+.testimonial-item-four .testimonial-content h5.author-title:before{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.single-progress-bar .progress-title h5 span{
+    float: left;
+}
+
+.skill-img-box .circle-border span:nth-child(1){
+    right: auto;
+    left: -70px;
+}
+.skill-img-box .circle-border span:nth-child(2){
+    right: auto;
+    left: -30px;
+}
+.newsletter-wrapper-two .newsletter-image-box{
+    left: auto;
+    right: 0;
+}
+.newsletter-wrapper-two .newsletter-image-box .circle-border span{
+    left: auto;
+    right: -80px;
+}
+.newsletter-wrapper-two .newsletter-image-box .newsletter-image-one{
+    margin-left: 0;
+    margin-right: -50px;
+}
+
+.navigation-three .site-branding .call-button span{
+    margin-left: 0;
+    margin-right: 20px;   
+}
+.navigation-three .nav-right-item{
+    margin-left: 0;
+    margin-right: 30px;
+}
+.about-seven_image-box .shape.dot-shape3{
+    left: auto;
+    right: -30px;
+}
+.banner-five .pattern-shape{
+    left: auto;
+    right: 120px;
+}
+.banner-five .hero-content .hero-button .video-popup span{
+    margin-left: 0;
+    margin-right: 15px;
+}
+.banner-five .hero-img-box .shape.border-circle{
+    left: auto;
+    right: -50px;
+}
+.tag-line:before{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.banner-five .hero-img-box .shape.square-shape{
+    right: auto;
+    left: -175px;
+}
+.about-seven_image-box .about-img-two{
+    right: auto;
+    left: 20px;
+}
+.about-seven_image-box .shape.shape-border1{
+    left: auto;
+    right: 10px;
+}
+.about-seven_image-box .shape.shape-border2{
+    left: auto;
+    right: -80px;
+}
+.benefits-image-box .benefit-img-three{
+    right: auto;
+    left: -50px;
+}
+.benefits-image-box .benefit-img-two{
+    right: auto;
+    left: 25px;
+}
+.benefits-image-box .benefit-img-one{
+    left: auto;
+    right: -15px;
+}
+.benefits-image-box .shape.border-circle{
+    left: auto;
+    right: 35px;
+}
+.benefits-image-box .shape.circle-shape{
+    left: auto;
+    right: 70px;
+}
+.testimonial-item-five .testimonial-content .author-title:before{
+    left: auto;
+    right: 0;
+}
+.testimonial-item-five .testimonial-content .author-title{
+    padding-left: 0;
+    padding-right: 60px;
+}
+.process-image-box .shape.border-circle1{
+    left: auto;
+    right: -30%;
+}
+.process-image-box .shape.border-circle2{
+    left: auto;
+    right: -25%;
+}
+.process-image-box .process-img-two{
+    right: auto;
+    left: 30px;
+}
+.process-left-item .icon{
+    margin-right: 0;
+    margin-left: 25px;
+}
+.single-team-item-three .img-holder .social-box{
+    right: auto;
+    left: 25px;
+}
+.about-two_image-box .quote-box-four{
+    margin-left: 0;
+    margin-right: -65px;
+}
+.tab-content-box .nav-tabs .nav-item:not(:last-child) {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.about-three_image-box .big-logo{
+    left: auto;
+    right: 35%;
+}
+
+.single-history-item .history-content{
+    margin-left: 0;
+    margin-right: -30px;
+}
+.single-history-item:nth-child(even) .history-content {
+    margin-left: -30px;
+    margin-right: 0;
+}
+.single-history-item .history-content h4.title span.ribbon{
+    margin-right: 0px;
+    margin-left: 15px;
+}
+.faq-accordion-two .accordion-card .card-header h5:before{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.faq-accordion-two .accordion-card .card-header h5:after{
+    margin-left: 0;
+    margin-right: auto;
+}
+.pricing-item-one .pricing-body ul.pricing-list li:before{
+    margin-right: 0;
+    margin-left: 10px;
+    
+}
+.features-item-three .icon{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.solution-one_image-box .solution-img-one{
+    margin-left: 0;
+    margin-right: auto;
+}
+.solution-one_image-box .solution-img-two{
+    right: auto;
+    left: 0;
+}
+.solution-one_image-box .company-card{
+    left: auto;
+    right: 90px;
+}
+.check-style-three li:before{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.optimization-one_image-box{
+    margin-left: 0;
+    margin-right: auto;
+}
+.optimization-one_image-box .big-logo{
+    left: auto;
+    right: -65px;
+}
+.skill-one_image-box .quote-box-rotate-90{
+    right: auto;
+    left: -70px;
+}
+.author-section .author-content-box h5:before{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.categories-nav a i{
+    margin-right: 0;
+    margin-left: 7px;
+}
+.single-job-item .job-thumb{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.single-job-item .job-main-content .job-content h3.title span.status{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.single-job-item .job-main-content .job-content .job-meta span i {
+    margin-right: 0px;
+    margin-left: 7px;
+}
+.single-job-item .job-main-content .job-content .job-meta span:not(:last-child) {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.jobs-sidebar .job-widget h4.title:after,
+.job-details-wrapper .description-box h4.title:after{
+    left: auto;
+    right: 0;
+}
+.job-details-wrapper .description-box ul.social-link li a{
+    margin-right: 0;
+    margin-left: 5px;
+}
+.jobs-sidebar .job-widget.job-info-widget .job-info-box .icon{
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.jobs-sidebar .job-widget.job-skill-widget a{
+    margin-right: 0;
+    margin-left: 3px;
+}
+.project-item-three .project-content .icon-btn{
+    right: auto;
+    left: 20px;
+}
+.post-navigation-two .post-nav-item .thumb{
+    margin-right: 0;
+    margin-left: 40px;
+}
+.post-navigation-two .post-nav-item.next-post {
+    direction: ltr;
+    text-align: left;
+}
+.post-navigation-two .post-nav-item.next-post .thumb {
+    margin-right: 40px;
+    margin-left: 0;
+}
+.product-search-filter .product-search .search-btn{
+    right: auto;
+    left: 8px;
+}
+.product-search-filter .filter-category {
+    float: left;
+}
+.sidebar-widget.recent-products-widget .product-item .thumb,
+.product-search-filter .filter-category > ul > li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.single-product-item .product-info span.price span.prev-price{
+    margin-right: 0;
+    margin-left: 5px;
+}
+.sidebar-widget h4.widget-title span.line:before{
+    right: auto;
+    left: -16px;
+}
+.sidebar-widget h4.widget-title span.line:after{
+    right: auto;
+    left: -29px;
+}
+.sidebar-widget.product-category-widget ul.category-nav li a i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.sidebar-widget.product-category-widget ul.category-nav li a span{
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.product-details-wrapper .product-info .products-rating-price span.price{
+    margin-left: 0;
+    margin-right: 10px;
+}
+.single-testimonial-item .testimonial-content .author-thumb-title .author-thumb,
+.product-details-wrapper .product-info .product-meta li span{
+    margin-right: 0;
+    margin-left: 20px;
+}
+.product-details-wrapper .product-info .product-cart ul li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.mr-2, .mx-2 {
+    margin-right: 0;
+    margin-left: .5rem!important;
+}
+.review-form form .nice-select{
+    float: right;
+}
+.review-form form .nice-select {
+    float: right;
+    text-align: right !important;
+}
+.review-form form .nice-select:after {
+    right: auto;
+    left: 25px;
+}
+.faq-two_image-box .faq-one-img{
+    right: auto;
+    left: 0;
+}
+.faq-two_image-box .faq-two-img{
+    left: auto;
+    right: 0;
+}
+.faq-two_image-box .faq-three-img{
+    right: auto;
+    left: -80px;
+}
+.faq-two_image-box .fintex-logo{
+    left: auto;
+    right: 35px;
+}
+.pricing-item-two span.save,
+.pricing-item-one span.save{
+    left: auto;
+    right: 15px;
+}
+.pricing-item-two .pricing-body .pricing-list li.check:after{
+    float: left;
+}
+.fintex-user-section .user-wrapper .user-content form.user-form .form_control{
+    padding-left: 0;
+    padding-right: 63px;
+}
+.fintex-user-section .user-wrapper .user-content form.user-form i{
+    left: auto;
+    right: 10px;
+    border-right: none;
+    border-left: 1px solid #e3e3e3;
+}
+.blog-post-item-two .post-thumbnail .post-date{
+    right: auto;
+    left: 40px;
+}
+.blog-details-wrapper .post-author-box .author-thumb,
+.blog-post-item-content .entry-content{
+    margin-right: 0;
+    margin-left: 30px;
+}
+.sidebar-widget.search-widget form .search-btn{
+    right: auto;
+    left: 0;
+}
+.sidebar-widget.category-widget .category-nav li a span{
+    float: left;
+}
+.sidebar-widget.recent-post-widget .recent-post-list .post-thumbnail-content img{
+    margin-right: 0;
+    margin-left: 25px;
+}
+.blog-details-wrapper .comments-area .comments-list .comment .comment-wrap .comment-author-content span.date i,
+.blog-details-wrapper .post-navigation .post-nav-item .content .post-date a i,
+.blog-details-wrapper .blog-post .entry-footer h4,
+.sidebar-widget.contact-info-widget .contact-info-content span:before,
+.sidebar-widget.recent-post-widget .recent-post-list .post-thumbnail-content .post-title-date span.posted-on i{
+    margin-right: 0;
+    margin-left: 10px;
+}
+.blog-details-wrapper .comments-area .comments-list .comment .comment-wrap .comment-author-content .comment-author-title .author-name,
+.blog-details-wrapper .blog-post .entry-footer .social-share a {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.blog-details-wrapper .post-navigation .post-nav-item .thumb{
+    margin-right: 0;
+    margin-left: 25px;
+}
+.blog-details-wrapper .post-navigation .post-nav-item.next-post {
+    direction: ltr;
+    float: left;
+    text-align: left;
+}
+.blog-details-wrapper .post-navigation .post-nav-item.next-post .thumb {
+    margin-right: 25px;
+    margin-left: 0;
+}
+
+.blog-details-wrapper .post-navigation .post-nav-item.next-post .content .post-date a i {
+    margin-right: 10px;
+    margin-left: 0;
+}
+.single-info-item .icon{
+    margin-right: 0;
+    margin-left: 30px;
+}
+.contact-one_form-box .contact-form i{
+    left: auto;
+    right: 0;
+}
+.contact-two_form-box{
+    margin-left: 0;
+    margin-right: -100px;
+}
+.team-one_content-box .skill-wrap-one{
+    margin-left: 0;
+    margin-right: -220px;
+}
+.product-details-wrapper .product-gallery-area {
+    margin-right: 0;
+    margin-left: 40px;
+}
+.fact-section-two{
+    padding-left: 0;
+    padding-right: 70px;
+}
+.utility-section:after{
+    right: auto;
+    left: 0;
+}
+.service-section-two:after{
+    left: auto;
+    right: -32%;
+}
+.about-company-widget-two {
+    padding-right: 0;
+    padding-left: 10%;
+}
+
+
+
+.contact-information-section,
+.blog-details-page,
+.blog-section,
+.fintex-user-section,
+.pricing-area,
+.contact-section-two,
+.testimonial-area,
+.products-details-page,
+.products-page,
+.project-details-page,
+.job-details-page,
+.who-we-section,
+.jobs-section,
+.categories-section,
+.team-details-section,
+.author-section,
+.optimization-section,
+.management-section,
+.solution-section,
+.pricing-section,
+.service-section-three,
+.history-section,
+.about-section-three,
+.team-section,
+.contact-section-three,
+.benefits-section,
+.about-section-five,
+.banner-five,
+.skill-section,
+.testimonial-section-variable-width,
+.faq-section-bg ,
+.fact-section-four,
+.about-section-two,
+.service-area,
+.banner-four,
+.newsletter-section,
+.testimonial-section,
+.features-section-two,
+.about-section,
+.fact-section-three,
+.banner-three,
+.contact-section,
+.testimonial-section-two,
+.advantage-section,
+.service-section-two,
+.cta-section-two,
+.utility-section,
+.about-area,
+.banner-two,
+footer,
+.newsletter-section,
+.blog-section,
+.faq-section,
+.feedback-section,
+.cta-section,
+.project-section,
+.fact-section,
+.service-section,
+.features-section,
+.about-section-one,
+.banner-one,
+.header-area{
+    text-align: right;
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1650px){
+    .topbar-one {
+        padding-left: 0px;
+        padding-right: 240px;
+    }
+    .navigation-one .nav-inner-menu {
+        margin-right: 30px;
+    }
+    .navigation-two .nav-inner-menu {
+        margin-right: 90px;
+    }
+    .navigation-three .nav-right-item {
+        margin-right: 10px;
+    }
+    .banner-five .hero-img-box .shape.square-shape {
+        left: -50px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .ml-lg-40{
+        margin-left: 0;
+        margin-right: 40px;
+    }
+    .ml-lg-55{
+        margin-left: 0;
+        margin-left: 55px;
+    }
+    .ml-lg-60{
+        margin-left: 0;
+        margin-right: 60px;
+    }
+    .ml-lg-70{
+        margin-left: 0;
+        margin-right: 70px;
+    }
+    .mr-lg-70{
+        margin-right: 0;
+        margin-left: 70px;
+    }
+    .mr-lg-100{
+        margin-right: 0;
+        margin-left: 100px;
+    }
+    .pl-lg-30{
+        padding-left: 0;
+        padding-right: 30px;
+    }
+    .pl-lg-50{
+        padding-left: 0px;
+        padding-right: 50px;
+    }
+    .pl-lg-70{
+        padding-left: 0;
+        padding-right: 70px;
+    }
+    .pl-lg-100{
+        padding-left: 0;
+        padding-right: 100px;
+    }
+    .pr-lg-40{
+        padding-right: 0;
+        padding-left: 40px;
+    }
+    .pr-lg-50{
+        padding-right: 0;
+        padding-left: 50px;
+    }
+    .pr-lg-70{
+        padding-right: 0;
+        padding-left: 70px;
+    }
+    .mr-minus-40{
+        margin-right: 0;
+        margin-left: -40px;
+    }
+    .ml-minus-40{
+        margin-left: 0;
+        margin-right: -40px;
+    }
+}
+
+@media (max-width: 1199px){
+    .navigation-one .nav-inner-menu {
+        margin-right: 0;
+    }
+    .navigation-two .nav-inner-menu {
+        margin-right: 0;
+    }
+    .banner-three .hero-content h1{
+        padding-left: 0;
+    }
+    .banner-four .hero-content h1{
+        padding-left: 0;
+    }
+    .banner-five .hero-content h1 {
+        padding-left: 0;
+    }
+    .about-two_image-box .quote-box-four {
+        margin-right: 0;
+    }
+    .skill-img-box .circle-border span:nth-child(1) {
+        left: 50px;
+    }
+    .skill-img-box .circle-border span:nth-child(2) {
+        left: 30px;
+    }
+    .fact-section-two{
+        padding-right: 0;
+    }
+    .fact-img_one-box .quote-box-three{
+        right: 0;
+    }
+    .benefits-image-box .benefit-img-three{
+        left: 0;
+    }
+    .benefits-image-box .shape.circle-shape,
+    .benefits-image-box .shape.border-circle {
+        right: 0;
+    }
+    .cta-section-two {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .product-details-wrapper .product-gallery-area {
+        margin-left: 0;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .banner-three .shape.shape-five {
+        left: 7%;
+    }
+    .banner-three .shape.shape-six {
+        left: 7%;
+    }
+    .service-one_image-box .shape.border-circle{
+        left: 28%;
+    }
+    .optimization-one_image-box .big-logo {
+        right: 0;
+    }
+    .skill-img-box .circle-border span:nth-child(1) {
+        left: -40px;
+    }
+    .skill-img-box .circle-border span:nth-child(2) {
+        left: -30px;
+    }
+    .faq-two_image-box .faq-three-img {
+        left: 0;
+    }
+}
+@media (min-width: 992px){
+    .float-lg-right {
+        float: left!important;
+    }
+    .text-lg-right {
+        text-align: left!important;
+    }
+}
+@media (max-width: 991px){
+    .about-four_image-box .about-img-one{
+        right: 25px;
+    }
+    .banner-three .shape.shape-five {
+        left: 20%;
+    }
+    .about-seven_image-box .shape.shape-border2 {
+        right: 30px;
+    }
+    .process-image-box .shape.border-circle2 {
+        right: 0;
+    }
+    .post-navigation-two .post-nav-item .thumb {
+        margin-left: 20px;
+    }
+    .post-navigation-two .post-nav-item.next-post .thumb {
+        margin-right: 20px;
+    }
+    .faq-accordion-three .accordion-card .card-header {
+        margin-left: 0;
+    }
+    .team-one_content-box .skill-wrap-one {
+        margin-right: 0;
+    }
+    .contact-two_form-box {
+        margin-right: 0;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-three .hero-content h1{
+        padding-left: 20%;
+    }
+    .banner-five .hero-content h1 {
+        padding-left: 20%;
+    }
+    .about-four_image-box .about-img-one {
+        right: 25px;
+    }
+    .service-one_image-box .shape.border-circle {
+        left: 20%;
+    }
+    .benefits-image-box .benefit-img-one{
+        right: 50px;
+    }
+    .faq-two_image-box .faq-three-img {
+        left: 0;
+    }
+}
+@media (max-width: 767px){
+    .about-seven_image-box .shape.shape-border2 {
+        right: 0;
+    }
+    .service-one_image-box .service-one-img{
+        margin-left: 0;
+    }
+    .features-two_img-box .shape.shape-one{
+        right: 0;
+    }
+    .skill-img-box .circle-border span:nth-child(1) {
+        left: 0;
+    }
+    .skill-img-box .circle-border span:nth-child(2){
+        left: 50px;
+    }
+    .newsletter-from-two .form_group .input-box .form_control {
+        border-left: none;
+    }
+    .blog-details-wrapper .comments-area .comments-list {
+        margin-right: 0;
+    }
+    .blog-details-wrapper .comments-area .comments-list .comment:nth-child(even) {
+        margin-left: 0;
+        margin-right: 25px;
+    }
+}
+
+@media (max-width: 450px){
+    .hero-content .hero-button a:not(:first-child) {
+        margin-right: 0;
+    }
+    .banner-four .hero-content .hero-button a:not(:first-child){
+        margin-right: 0;
+    }
+    .solution-one_image-box .solution-img-two {
+        left: auto;
+    }
+    .optimization-one_image-box .big-logo {
+        right: 0;
+    }
+    .single-history-item:nth-child(even) .history-content {
+        margin-left: 0;
+    }
+    .faq-accordion-three .accordion-card .card-header h5:after {
+        left: 20px;
+    }
+}

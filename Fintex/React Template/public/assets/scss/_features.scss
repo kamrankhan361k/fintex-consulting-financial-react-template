@@ -1,0 +1,594 @@
+
+/*---==================
+    06. Features css 
+=================----*/
+
+.features-section{
+    & .shape{
+        position: absolute;
+        @media #{$xs}{
+            display: none;
+        }
+        &.shape-one{
+            left: 80px;
+            bottom: 140px;
+            @media #{$lm}{
+                bottom: 45%;
+            }
+            & span{
+                width: 650px;
+                height: 650px;
+                border-radius: 50%;
+                border: 130px solid rgba(249, 77, 28, .102);
+            }
+        }
+    }
+}
+
+.features-wrapper{
+    margin-left: -90px;
+    margin-right: -90px;
+    border-radius: 8px;
+    background:linear-gradient( -180deg, rgba(97,142,188,0.10196) 0%, rgba(39,57,76,0.21) 60%, rgba(1,1,1,0.32157) 100%);
+    padding: 70px 90px 30px;
+    border-radius: 8px;
+    @media #{$lm}{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    @media #{$xm}{
+        padding: 50px 30px; 
+    }
+}
+
+.features-item{
+    padding: 35px 35px 25px;
+    background-color: #fff;
+    box-shadow: 0px 10px 60px 0px rgba(172, 172, 172, 0.1);
+    border: 1px solid transparent;
+    @include transition(.3s);
+    &:hover{
+        border-color: $primary;
+    }
+    & .icon{
+        margin-bottom: 10px;
+        & i{
+            font-size: 50px;
+            line-height: 1em;
+            color: $primary;
+        }
+    }
+    & .text{
+        & h4.title{
+            margin-bottom: 10px;
+            letter-spacing: -0.03em;
+        }
+    }
+}
+
+
+.features-item-two{
+    background-color: #fff;
+    box-shadow: 0px 10px 60px 0px rgba(24, 28, 34, 0.07);
+    border-radius: 7px;
+    padding: 40px;
+    gap: 30px;
+    @media #{$xss}{
+        padding: 40px 20px;
+        gap: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+    &:hover{
+        & .icon{
+            background-color: $primary;
+            color: #fff;
+        }
+        & .icon-btn{
+            background-color: $primary;
+            border-color: transparent;
+            color: #fff;
+        }
+    }
+    & span.number{
+        font-size: 24px;
+        color: $heading;
+        font-weight: 800;
+        font-family: $manrope;
+    }
+    & .icon{
+        flex: 0 0 100px;
+        max-width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        @extend %flex-center;
+        background-color: transparent;
+        color: $primary;
+        font-size: 50px;
+        @include transition(.3s);
+        @media #{$xss}{
+            width: 100px;
+        }
+    }
+    & .text{
+        @media #{$lm}{
+            flex: 1;
+        }
+        & h3.title{
+            letter-spacing: -0.03em;
+            @media #{$xss}{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    & .icon-btn{
+        flex: 0 0 60px;
+        max-width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        @extend %flex-center;
+        border: 1px solid rgba(24, 28, 34, .102);
+        font-size: 18px;
+        color: $primary;
+        @media #{$xss}{
+            width: 60px;
+        }
+    }
+}
+
+
+.features-item-three{
+    padding: 35px 35px 28px;
+    border: 1px solid rgba(26, 26, 26, .071);
+    & .icon{
+        flex: 0 0 40px;
+        max-width: 40px;
+        margin-right: 20px;
+        & i{
+            color: $primary;
+            font-size: 40px;
+        }
+    }
+    & .text{
+        margin-top: -7px;
+        h4.title{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+.features-item-left-box{
+    display: flex;
+    @media #{$xss}{
+        flex-direction: column;
+        & .icon{
+            margin-bottom: 20px;
+        }
+    }
+    & .icon{
+        flex: 0 0 45px;
+        max-width: 45px;
+        margin-right: 20px;
+        & i{
+            font-size: 45px;
+            color: $primary;
+        }
+    }
+    & .text{
+        margin-top: -7px;
+        & h4.title{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+.features-item-four{
+    padding: 40px 30px 30px;
+    background-color: #fff;
+    @include transition(.3s);
+    &:hover{
+        box-shadow: 0px 10px 60px 0px rgba(205, 205, 205, 0.3);
+    }
+    & .icon{
+        margin-bottom: 10px;
+        & i{
+            font-size: 55px;
+            line-height: 1;
+            color: #18a0ca;
+        }
+    }
+    & .text{
+        & h4.title{
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 7px;
+        }
+    }
+}
+
+.features-item-five{
+    padding: 40px 35px 30px;
+    background-color: #fff;
+    box-shadow: 0px 10px 60px 0px rgba(205, 205, 205, 0.3);
+    & .icon{
+        margin-bottom: 18px;
+        & i{
+            font-size: 55px;
+            line-height: 1;
+        }
+    }
+    & .text{
+        & h5.title{
+            margin-bottom: 15px;
+        }
+        & p{
+            margin-bottom: 13px;
+        }
+    }
+}
+
+.features-fancy-box{
+    background-color: $blue-dark;
+    display: inline-block;
+    padding: 35px 40px 30px;
+    border-radius: 14px;
+    & h5{
+        font-size: 20px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    & .fancy-circle{
+        position: relative;
+        width: 180px;
+        height: 180px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+        & .span1{
+            position: absolute;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 3px solid rgba(255,255,255,.5);
+            border-color: transparent #fff #fff;
+            animation: fintex-rotate-animate 2s linear infinite;
+            animation-direction: reverse;
+        }
+        & .span2{
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid rgba(255,255,255,.5);
+            &:after{
+                content: "";
+                width: 130px;
+                height: 130px;
+                border-radius: 50%;
+                background-color: initial;
+                border: 20px solid transparent;
+                position: absolute;
+                animation: rotation 2s linear infinite;
+                border-bottom-color: #fff;
+                top: -10px;
+                left: -10px;
+                animation: fintex-rotate-animate 3s linear infinite;
+            }
+        }
+        & .span3{
+            position: absolute;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background-color: rgba(255,255,255,.5);
+        }
+    }
+    & ul{
+        & li{
+            color: #fff;
+            font-weight: 700;
+            font-family: $manrope;
+            & i{
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+
+/* Features Image box */ 
+
+.features-one_img-box{
+    position: relative;
+    max-width: 570px;
+    min-height: 775px;
+    & .features-img-two{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    & .quote-box-two{
+        position: absolute;
+        bottom: 22%;
+        left: 0;
+    }
+    & .big-logo{
+        position: absolute;
+        top: 150px;
+        right: 50px;
+    }
+}
+
+.features-two_img-box{
+    & .shape{
+        position: absolute;
+        z-index: -1;
+        &.shape-one{
+            bottom: 30px;
+            left: 50px;
+            @media #{$xs}{
+                left: 0;
+            }
+            & span{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                background-color: $blue-dark;
+                filter: blur(100px);
+            }
+        }
+    }
+}
+
+/*====== Process Section CSS ======*/
+
+
+.process-image-box{
+    min-height: 665px;
+    & .process-img-two{
+        position: absolute;
+        bottom: 0;
+        right: 30px;
+        border-radius: 15px;
+        box-shadow: 0px 10px 60px 0px rgba(205, 205, 205, 0.3);
+        @media #{$xm}{
+            bottom: 50px;       
+        }
+    }
+    & .shape{
+        position: absolute;
+        z-index: -1;
+        &.border-circle1{
+            top: -50px;
+            left: -30%;
+            width: 570px;
+            height: 570px;
+            border-radius: 50%;
+            border: 1px solid rgba(6, 8, 21, 0.102);
+            border-radius: 48% 52% 62% 38%/44% 51% 49% 56%;
+            animation: fintex-rotate-animate 10s linear infinite;
+            @media #{$xs}{
+                display: none;
+            }
+        }
+        &.border-circle2{
+            left: -25%;
+            bottom: -35px;
+            width: 410px;
+            height: 410px;
+            border-radius: 50%;
+            border: 80px solid #ffae00;
+            @media #{$xm}{
+                left: 0;
+                bottom: 5%;
+            }
+            @media #{$xs}{
+                width: 310px;
+                height: 310px;
+                border: 50px solid #ffae00;
+            }
+        }
+    }
+}
+.process-left-item{
+    background-color: #fff;
+    padding: 25px 35px 17px;
+    box-shadow: 0px 10px 60px 0px rgba(205, 205, 205, 0.3);
+    @media #{$xss}{
+        padding: 25px 25px 17px;
+    }
+    & .icon{
+        flex: 0 0 auto;
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        @extend %flex-center;
+        font-size: 30px;
+        background-color: $blue-dark;
+        color: #fff;
+        margin-right: 25px;
+    }
+    & .text{
+        & h4.title{
+            margin-bottom: 8px;
+        }
+    }
+    &:nth-child(2){
+        & .icon{
+            background-color: $green;
+        }
+    }
+    &:nth-child(3){
+        & .icon{
+            background-color: #0fbbb4;
+        }
+    }
+}
+.process-content-box{
+    & ul{
+        & li.process-left-item{
+            &:nth-child(even){
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+.single-progress-bar{
+    & .progress-title{
+        margin-bottom: 25px;
+        & h5{
+            font-size: 20px;
+            & span{
+                position: relative;
+                float: right;
+                background-color: $orange;
+                font-size: 18px;
+                color: #fff;
+                padding: 7px 9px;
+                line-height: 1;
+                &:after{
+                    position: absolute;
+                    bottom: -10px;
+                    left: 50%;
+                    content: '';
+                    @include transform(translateX(-50%));
+                    width: 0;
+                    height: 0;
+                    border-left: 5px solid transparent;
+                    border-right: 5px solid transparent;
+                    border-top: 10px solid $primary;
+                }
+            }
+        }
+    }
+    & .progress{
+        border-radius: 0;
+        height: 5px;
+        background-color: rgba(251, 88, 80, .2);
+        & .progress-bar{
+            background-color: $orange;
+        }
+    }
+    &.progress-bar-two{
+        & .progress-title{
+            & h5{
+                & span{
+                    background-color: #18a0ca;
+                    &:after{
+                        border-top: 10px solid #18a0ca;
+                    }
+                }
+            }
+        }
+        & .progress{
+            background-color: rgba(24, 160, 202, 0.2);
+            & .progress-bar{
+                background-color: #18a0ca;
+            }
+        }
+    }
+}
+
+
+/*======  Quote Box  ======*/ 
+.quote-box-one{
+    background-color: $primary;
+    padding: 90px 80px;
+    border-radius: 120px 5px 5px 5px;
+    @media #{$xs}{
+        padding: 50px 40px;
+    }
+    & h2{
+        font-size: 65px;
+        line-height: 1em;
+        color: #fff;
+        letter-spacing: -0.03em;
+        @media #{$lm}{
+            font-size: 42px;
+            line-height:55px;
+        }
+        @media #{$xs}{
+            font-size: 32px;
+            line-height: 42px;
+        }
+    }
+}
+
+.quote-box-two{
+    padding: 30px 55px;
+    display: inline-flex;
+    background-color: $primary;
+    max-width: 265px;
+    & h3{
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: -0.03em;
+        color: #fff;
+    }
+}
+
+.quote-box-three{
+    background-color: $primary;
+    max-width: 390px;
+    padding: 50px;
+    @media #{$xs}{
+        padding: 50px 30px;
+    }
+    & h3{
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -0.03em;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    & .author-thumb-title{
+        & .author-thumb{
+            flex: 0 0 65px;
+            max-width: 65px;
+            margin-right: 20px;
+            & img{
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        & .author-title{
+            & h4.title{
+                color: #fff;
+            }
+            & p.position{
+                color: #fff;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.quote-box-four{
+    background-color: $primary;
+    border-radius: 65px 15px 15px 15px;
+    max-width: 385px;
+    padding: 55px 40px 50px 55px;
+    @media #{$xs}{
+        padding: 35px 30px 30px 35px;  
+    }
+    & h3{
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -0.03em;
+        @media #{$xs}{
+            font-size: 22px;
+            line-height: 32px;
+        }
+    }
+}
+
+.quote-box-rotate-90{
+    background-color: $primary;
+    padding: 20px 50px;
+    display: inline-flex;
+}

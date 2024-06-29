@@ -1,0 +1,371 @@
+
+/*---==================
+    05. Service css 
+=================----*/
+
+
+
+/* Service Slider One */
+
+.service-slider-one{
+    margin-left: -15px;
+    margin-right: -15px;
+    
+    & .slick-list{
+        padding-bottom: 30px;
+    }
+    & .service-item{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+/* Service Item*/
+
+.service-item{
+    &:hover{
+        & .text{
+            visibility: hidden;
+            opacity: 0;
+        }
+        & .hover-text{
+            @include transform(translateY(0px));
+            visibility: visible;
+            opacity: 1;
+            & .icon-btn{
+                color: $heading;
+            }
+        }
+    }
+    & .img-holder{
+        & img{
+            width: 100%;
+        }
+    }
+    & .service-content{
+        position: relative;
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: 35px;
+        margin-top: -50px;
+        border-radius: 5px;
+    }
+    & .text{
+        background-color: #fff;
+        padding: 20px 35px;
+        position: relative;
+        @include transition(.3s);
+        & i{
+            font-size: 45px;
+            color: $primary;
+            margin-right: 20px;
+            flex: 0 0 45px;
+            max-width: 45px;
+        }
+        & h3{
+            font-size: 20px;
+            line-height: 25px;
+        }
+    }
+    & .hover-text{
+        position: absolute;
+        bottom: 0;
+        padding: 30px 30px 23px;
+        background-color: $primary;
+        visibility: hidden;
+        opacity: 0;
+        @include transform(translateY(30px));
+        @include transition(.4s);
+        & .title-icon{
+            padding-bottom: 30px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255,.302);
+            & i{
+                font-size: 45px;
+                color: #fff;
+                margin-right: 20px;
+                flex: 0 0 45px;
+                max-width: 45px;
+            }
+            & h3{
+                font-size: 20px;
+                line-height: 25px;
+                &:hover{
+                    color: $heading;
+                }
+            }
+        }
+        & .icon-btn{
+            position: absolute;
+            bottom: -20px;
+            right: 20px;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            @extend %flex-center;
+            background-color: #fff;
+            color: $primary;
+        }
+    }
+}
+
+/* Service Item Two*/
+
+.service-item-two{
+    background-color: #fff;
+    padding: 35px 30px 30px;
+    & .icon{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        @extend %flex-center;
+        display: inline-flex;
+        background-color: rgba(249, 77, 28, 0.05);
+        font-size: 55px;
+        color: $primary;
+        margin-bottom: 25px;
+    }
+    & .text{
+        & h3{
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 6px;
+            &:hover{
+                color: $primary;
+            }
+        }
+        & p{
+            margin-bottom: 10px;
+        }
+    }
+}
+
+
+.service-item-three{
+    padding: 0 38px 40px;
+    border-radius: 7px;
+    background: linear-gradient( -180deg, rgba(97,142,188,0.10196) 0%, rgba(39,57,76,0.21) 60%, rgba(1,1,1,0.32157) 100%);
+    @media #{$lg}{
+        padding: 0 25px 40px;
+    }
+    & .icon{
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: $blue-dark;
+        @extend %flex-center;
+        display: inline-flex;
+        font-size: 45px;
+        color: #fff;
+        margin-top: -45px;
+    }
+    & .text{
+        padding-top: 30px;
+        & h3.title{
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        & p{
+            margin-bottom: 15px;
+        }
+        & .btn-link{
+            color: #fff;
+        }
+    }
+}
+
+.service-item-four{
+    padding: 40px 35px;
+    background-color: #fff;
+    @include transition(.3s);
+    &:hover{
+        box-shadow: 0px 10px 60px 0px rgba(205, 205, 205, 0.3);
+    }
+    & .icon{
+        margin-bottom: 15px;
+        & i{
+            font-size: 55px;
+            color: $primary;
+        }
+    }
+    & .text{
+        & h3.title{
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 15px;
+            &:hover{
+                color: $primary;
+            }
+        }
+        & p{
+            margin-bottom: 17px;
+        }
+    }
+}
+
+
+.service-one_image-box{
+    & .service-one-img{
+        margin-right: 40px;
+        @media #{$xs}{
+            margin-right: 0;
+        }
+    }
+    & .shape{
+        position: absolute;
+        z-index: -1;
+        &.border-circle{
+            right: 13%;
+            bottom: 0;
+            width: 510px;
+            height: 510px;
+            border-radius: 50%;
+            border: 1px solid rgba(6, 8, 21, 0.102);
+            border-radius: 48% 52% 62% 38%/44% 51% 49% 56%;
+            animation: fintex-rotate-animate 10s linear infinite;
+            @media #{$lg}{
+                right: 28%;
+            }
+            @media #{$md}{
+                right: 20%;
+            }
+            @media #{$xs}{
+                display: none;
+            }
+        }
+    }
+    & .dot-shape{
+        position: absolute;
+        z-index: -1;
+        & span{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+        &.dot-shape1{
+            top: 5%;
+            left: 8%;
+            & span{
+                background-color: #ffc600;
+            }
+        }
+        &.dot-shape2{
+            left: 0;
+            bottom: 35%;
+            & span{
+                background-color: #0dceb5;
+            }
+        }
+        &.dot-shape3{
+            top: 5%;
+            right: 50px;
+            & span{
+                background-color: #39b76e;
+            }
+        }
+        &.dot-shape4{
+            right: 30px;
+            bottom: 5%;
+            & span{
+                background-color: #fb5850;
+            }
+        }
+    }
+}
+
+/* Service Section */
+
+.service-section{
+    &:after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: #1a1a1a;
+        mix-blend-mode: multiply;
+        z-index: -1;
+    }
+}
+
+/* Service Section Two*/
+
+.service-section-two{
+    position: relative;
+    z-index: 1;
+    background-color: #222933;
+    &:after {
+        position: absolute;
+        content: '';
+        width: 142.7%;
+        height: 100%;
+        background: #222933;
+        top: 0;
+        left: -32%;
+        z-index: -1;
+        @media #{$lm}{
+            display: none;
+        }
+    }
+}
+
+/* Service Section Three*/
+
+.service-section-three{
+    & .shape{
+        position: absolute;
+        &.shape-one{
+            bottom: 0;
+            right: 0;
+        }
+    }
+}
+
+/* Solution Image Box*/
+
+
+.solution-one_image-box{
+    max-width: 575px;
+    & .solution-img-one{
+        margin-top: 35%;
+        margin-left: auto;
+    }
+    & .solution-img-two{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        @media #{$xss}{
+            position: relative;
+            top: auto;
+            right: auto;
+            margin-top: 40px;
+        }
+    }
+    & .company-card{
+        position: absolute;
+        top: 70px;
+        left: 90px;
+    }
+}
+
+/* Optimization Image Box*/
+
+.optimization-one_image-box{
+    position: relative;
+    max-width: 570px;
+    margin-left: auto;
+    & .big-logo{
+        position: absolute;
+        left: -65px;
+        top: 50%;
+        @include transform(translateY(-50%));
+        @media #{$lg}{
+            left: 0;
+        }
+        @media #{$xss}{
+            left: 0;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+
+// Font Family
+
+$dmsans: 'DM Sans', sans-serif;
+
+$manrope: 'Manrope', sans-serif;
+
+$nunito: 'Nunito', sans-serif;
+
+// Colors
+
+$heading: #1a1a1a;
+
+$text-color: #74787c;
+
+$primary: #f94d1c;
+
+$secondary: #0dceb5;
+
+$blue-dark: #007eff;
+
+$orange: #fb5850;
+
+$green: #48bb0f;
+
+// Bg color
+
+$light-gray: #fafafa;
+
+$dark-black: #0f0f0f;
+
+
+// Responsive Variables
+
+$xxl: 'only screen and (min-width: 1651px) and (max-width: 1750px)';
+$lp: 'only screen and (min-width: 1200px) and (max-width: 1650px)';
+$xl: 'only screen and (min-width: 1200px)';
+$lm : '(max-width: 1199px)';
+$lg : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$xm:'(max-width: 991px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$xss:'(max-width: 450px)';
+$sm: 'only screen and (min-width: 451px) and (max-width: 767px)';

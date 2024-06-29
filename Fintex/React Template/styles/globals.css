@@ -1,0 +1,16 @@
+.testimonial-slider-four .slick-slide {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nice-select {
+  width: 100%;
+}
+.recent-product-slider .slick-slide,
+.testimonial-slider-two .slick-slide {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+html {
+  scroll-behavior: smooth;
+}

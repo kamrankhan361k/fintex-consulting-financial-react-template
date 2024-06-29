@@ -1,0 +1,263 @@
+
+/*---==================
+    11. Team css 
+=================----*/
+
+.team-slider-one{
+    margin-left: -15px;
+    margin-right: -15px;
+    & .single-team-item{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    & ul.slick-dots{
+        text-align: center;
+    }
+}
+
+
+
+.single-team-item{
+    & .img-holder{
+        position: relative;
+        overflow: hidden;
+        & img{
+            width: 100%;
+        }
+        &:hover{
+            & .social-link{
+                visibility: visible;
+                opacity: 1;
+                @include transform(translateY(0px));
+            }
+        }
+        & .team-shape{
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            & path{
+                fill: $primary;
+                mix-blend-mode: multiply;
+            }
+        }
+        & .share-btn{
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 60px;
+            height: 60px;
+            background-color: #fff;
+            @extend %flex-center;
+            font-size: 24px;
+            color: $primary;
+            cursor: pointer;
+        }
+        & .social-link{
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 16px 10px;
+            background-color: #fff;
+            visibility: hidden;
+            opacity: 0;
+            @include transform(translateY(-20px));
+            @include transition(.3s);
+            & li{
+                display: block;
+                & a{
+                    @extend %flex-center;
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 5px;
+                    color: $primary;
+                    &:hover{
+                        background-color: $primary;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    & .text{
+        padding-top: 30px;
+        & h3.title{
+            &:hover{
+                color: $primary;
+            }
+        }
+        & p.position{
+            font-weight: 500;
+            color: $primary;
+            padding-bottom: 15px;
+        }
+        & p.mail{
+            position: relative;
+            padding-top: 18px;
+            &:hover{
+                & a{
+                    color: $primary;
+                }
+            }
+            & i{
+                margin-right: 10px;
+                color: $primary;
+            }
+            &:before{
+                position: absolute;
+                content: '';
+                top: 0;
+                left: 50%;
+                @include transform(translateX(-50%));
+                width: 80%;
+                height: 1px;
+                background-color: rgba(26, 26, 26, 0.1);
+            }
+        }
+    }
+}
+
+
+
+.single-team-item-two{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+    border: 1px solid rgba(24, 28, 34, .102);
+    @include transition(.3s);
+    &:hover{
+        border-color: transparent;
+        box-shadow: 0px 10px 60px 0px rgba(185, 185, 185, 0.2);
+    }
+    & .img-holder{
+        margin-bottom: 30px;
+        & img{
+            width: 175px;
+            height: 175px;
+            border-radius: 50%;
+        }
+    }
+    & .text{
+        & h3.title{
+            font-size: 22px;
+            letter-spacing: -0.03em;
+            &:hover{
+                color: $secondary;
+            }
+        }
+        & p.posiiton{
+            font-weight: 500;
+        }
+    }
+}
+
+.single-team-item-three{
+    &:hover{
+        & .img-holder{
+            & .social-box{
+                bottom: 35px;
+            }
+        }
+    }
+    & .img-holder{
+        position: relative;
+        overflow: hidden;
+        & img{
+            width: 100%;
+        }
+        & .social-box{
+            position: absolute;
+            bottom: -100%;
+            right: 25px;
+            background-color: $orange;
+            padding: 4px 15px;
+            @include transition(.5s);
+            & ul.social-link{
+                & li{
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    & a{
+                        font-size: 14px;
+                        color: rgba(255, 255, 255, 0.5);
+                        &:hover{
+                            color: #ffff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    & .text{
+        position: relative;
+        padding: 12px 20px;
+        background-color: #fff;
+        box-shadow: 0px 10px 60px 0px rgba(205, 205, 205, 0.3);
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: -35px;
+        & h3.title{
+            font-size: 18px;
+            line-height: 28px;
+            &:hover{
+                color: $orange;
+            }
+        }
+        & p.position{
+            font-weight: 500;
+            color: $orange;
+            font-family: $dmsans;
+        }
+    }
+}
+
+.team-one_content-box{
+    & h2{
+        margin-bottom: 20px;
+        & span.thin{
+            font-weight: 300;
+            display: block;
+        }
+    }
+    & p{
+        margin-bottom: 25px;
+    }
+    & .skill-wrap-one{
+        background-color: #1a1a1a;
+        padding: 50px 60px 20px;
+        margin-left: -220px;
+        @media #{$xm}{
+            margin-left: 0;
+        }
+    }
+}
+.author-section{
+    & .author-image{
+        margin-top: -80px;
+    }
+    & .author-content-box{
+        & h2{
+            margin-bottom: 20px;
+            & span.thin{
+                font-weight: 300;
+                display: block;
+            }
+        }
+        & p{
+            font-size: 24px;
+            line-height: 35px;
+            font-family: $manrope;
+            margin-bottom: 20px;
+        }
+        & h5{
+            color: $primary;
+            &:before{
+                display: inline-flex;
+                content: '';
+                width: 40px;
+                height: 3px;
+                background-color: $primary;
+                vertical-align: middle;
+                margin-right: 20px;
+            }
+        }
+    }
+}

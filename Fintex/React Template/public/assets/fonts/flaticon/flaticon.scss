@@ -1,0 +1,213 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?bfb06dd86d134d222a8f95a382d83281") format("truetype"),
+url("./flaticon.woff?bfb06dd86d134d222a8f95a382d83281") format("woff"),
+url("./flaticon.woff2?bfb06dd86d134d222a8f95a382d83281") format("woff2"),
+url("./flaticon.eot?bfb06dd86d134d222a8f95a382d83281#iefix") format("embedded-opentype"),
+url("./flaticon.svg?bfb06dd86d134d222a8f95a382d83281#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "fukuoka-japan-flag-symbol": "\f101",
+    "left-quote": "\f102",
+    "stats": "\f103",
+    "support": "\f104",
+    "digital-strategy": "\f105",
+    "data": "\f106",
+    "competitive": "\f107",
+    "business": "\f108",
+    "profits": "\f109",
+    "folder-management": "\f10a",
+    "finance": "\f10b",
+    "left-quote-1": "\f10c",
+    "quotation": "\f10d",
+    "save-money": "\f10e",
+    "investment": "\f10f",
+    "piggy-bank": "\f110",
+    "investment-1": "\f111",
+    "investment-2": "\f112",
+    "pie-chart": "\f113",
+    "user": "\f114",
+    "finance-1": "\f115",
+    "credit": "\f116",
+    "insurance": "\f117",
+    "personal-wealth": "\f118",
+    "database": "\f119",
+    "money-transfer": "\f11a",
+    "ringing": "\f11b",
+    "pie-chart-1": "\f11c",
+    "planning": "\f11d",
+    "testing": "\f11e",
+    "career": "\f11f",
+    "profits-1": "\f120",
+    "debit-card": "\f121",
+    "money": "\f122",
+    "problem-solving": "\f123",
+    "friend": "\f124",
+    "profit": "\f125",
+    "target": "\f126",
+    "search": "\f127",
+    "idea-1": "\f128",
+    "document": "\f129",
+    "customers": "\f12a",
+    "global": "\f12b",
+    "medal": "\f12c",
+    "target-1": "\f12d",
+    "customer-service": "\f12e",
+    "food": "\f12f",
+);
+
+.flaticon-fukuoka-japan-flag-symbol:before {
+    content: map-get($flaticon-map, "fukuoka-japan-flag-symbol");
+}
+.flaticon-left-quote:before {
+    content: map-get($flaticon-map, "left-quote");
+}
+.flaticon-stats:before {
+    content: map-get($flaticon-map, "stats");
+}
+.flaticon-support:before {
+    content: map-get($flaticon-map, "support");
+}
+.flaticon-digital-strategy:before {
+    content: map-get($flaticon-map, "digital-strategy");
+}
+.flaticon-data:before {
+    content: map-get($flaticon-map, "data");
+}
+.flaticon-competitive:before {
+    content: map-get($flaticon-map, "competitive");
+}
+.flaticon-business:before {
+    content: map-get($flaticon-map, "business");
+}
+.flaticon-profits:before {
+    content: map-get($flaticon-map, "profits");
+}
+.flaticon-folder-management:before {
+    content: map-get($flaticon-map, "folder-management");
+}
+.flaticon-finance:before {
+    content: map-get($flaticon-map, "finance");
+}
+.flaticon-left-quote-1:before {
+    content: map-get($flaticon-map, "left-quote-1");
+}
+.flaticon-quotation:before {
+    content: map-get($flaticon-map, "quotation");
+}
+.flaticon-save-money:before {
+    content: map-get($flaticon-map, "save-money");
+}
+.flaticon-investment:before {
+    content: map-get($flaticon-map, "investment");
+}
+.flaticon-piggy-bank:before {
+    content: map-get($flaticon-map, "piggy-bank");
+}
+.flaticon-investment-1:before {
+    content: map-get($flaticon-map, "investment-1");
+}
+.flaticon-investment-2:before {
+    content: map-get($flaticon-map, "investment-2");
+}
+.flaticon-pie-chart:before {
+    content: map-get($flaticon-map, "pie-chart");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-finance-1:before {
+    content: map-get($flaticon-map, "finance-1");
+}
+.flaticon-credit:before {
+    content: map-get($flaticon-map, "credit");
+}
+.flaticon-insurance:before {
+    content: map-get($flaticon-map, "insurance");
+}
+.flaticon-personal-wealth:before {
+    content: map-get($flaticon-map, "personal-wealth");
+}
+.flaticon-database:before {
+    content: map-get($flaticon-map, "database");
+}
+.flaticon-money-transfer:before {
+    content: map-get($flaticon-map, "money-transfer");
+}
+.flaticon-ringing:before {
+    content: map-get($flaticon-map, "ringing");
+}
+.flaticon-pie-chart-1:before {
+    content: map-get($flaticon-map, "pie-chart-1");
+}
+.flaticon-planning:before {
+    content: map-get($flaticon-map, "planning");
+}
+.flaticon-testing:before {
+    content: map-get($flaticon-map, "testing");
+}
+.flaticon-career:before {
+    content: map-get($flaticon-map, "career");
+}
+.flaticon-profits-1:before {
+    content: map-get($flaticon-map, "profits-1");
+}
+.flaticon-debit-card:before {
+    content: map-get($flaticon-map, "debit-card");
+}
+.flaticon-money:before {
+    content: map-get($flaticon-map, "money");
+}
+.flaticon-problem-solving:before {
+    content: map-get($flaticon-map, "problem-solving");
+}
+.flaticon-friend:before {
+    content: map-get($flaticon-map, "friend");
+}
+.flaticon-profit:before {
+    content: map-get($flaticon-map, "profit");
+}
+.flaticon-target:before {
+    content: map-get($flaticon-map, "target");
+}
+.flaticon-search:before {
+    content: map-get($flaticon-map, "search");
+}
+.flaticon-idea-1:before {
+    content: map-get($flaticon-map, "idea-1");
+}
+.flaticon-document:before {
+    content: map-get($flaticon-map, "document");
+}
+.flaticon-customers:before {
+    content: map-get($flaticon-map, "customers");
+}
+.flaticon-global:before {
+    content: map-get($flaticon-map, "global");
+}
+.flaticon-medal:before {
+    content: map-get($flaticon-map, "medal");
+}
+.flaticon-target-1:before {
+    content: map-get($flaticon-map, "target-1");
+}
+.flaticon-customer-service:before {
+    content: map-get($flaticon-map, "customer-service");
+}
+.flaticon-food:before {
+    content: map-get($flaticon-map, "food");
+}

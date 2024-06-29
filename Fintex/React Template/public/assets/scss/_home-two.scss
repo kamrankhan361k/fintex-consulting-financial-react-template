@@ -1,0 +1,234 @@
+
+/*---==================
+    16. Home Two css 
+=================----*/
+
+.home-two{
+    & .preloader{
+        & .pre-box{
+            background-color: $secondary;
+        }
+    }
+    span.sub-title{
+        color: $secondary;
+    }
+    & .main-btn{
+        &.btn-red{
+            background-color: $secondary;
+            &:hover{
+                background-color: #0f0f0f;
+            }
+        }
+        &.filled-btn{
+            color: $secondary;
+            &:hover{
+                background-color: $secondary;
+                color: #fff;
+            }
+            &.filled-white{
+                color: #fff;
+                &:hover{
+                    color: $heading;
+                }
+            }
+        }
+    }
+    & .header-navigation{
+        & .main-menu{
+            & ul{
+                & > li{
+                    & a{
+                        &.active{
+                            color: $secondary;
+                        }
+                    }
+                    & .sub-menu{
+                        & li{
+                            &:hover {
+                                & > a{
+                                    color: $secondary;
+                                }
+                            }
+                            &.has-children{
+                                &:hover{
+                                    & > a{
+                                        &:after{
+                                            color: $secondary;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:hover{
+                        & > a{
+                            color: $secondary;
+                            &:before{
+                                background-color: $secondary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.breakpoint-on{
+            & .nav-menu{
+                & .main-menu{
+                    & ul li{
+                        & .dd-trigger{
+                            background-color: $secondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    & .banner-two{
+        & .hero-content{
+            & .hero-button{
+                & .main-btn{
+                    &.btn-white{
+                        &:hover{
+                            background-color: $heading;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    & .service-item{
+        & .text{
+            & i{
+                color: $secondary;
+            }
+        }
+        & .hover-text{
+            background-color: $secondary;
+        }
+    }
+    & .single-counter-item-two{
+        & .text{
+            & h2.number{
+                color: $secondary;
+            }
+            & h5{
+                color: rgba(255, 255, 255, 0.70);
+            }
+        }
+    }
+    & .features-item-two{
+        &:hover{
+            & .icon{
+                background-color: $secondary;
+                color: #fff;
+            }
+            & .icon-btn{
+                background-color: $secondary;
+                color: #fff;    
+            }
+        }
+        & .icon{
+            color: $secondary; 
+        }
+        & .icon-btn{
+            color: $secondary;
+        }
+    }
+    .cta-section-two{
+        & .section-title{
+            & h2{
+                & span{
+                    color: $secondary;
+                }
+            }
+        }
+    }
+    ul.check-style-two{
+        & li{
+            &:before{
+                background-color: $secondary;
+            }
+        }
+    }
+    .projects-slider-two{
+        & ul.slick-dots{
+            & li{
+                &.slick-active{
+                    border-color: $secondary;
+                    &:after{
+                        background-color: $secondary;
+                    }
+                }
+            }
+        }
+    }
+    & .blog-post-item-one{
+        & .post-thumbnail{
+            & .post-date{
+                & a{
+                    background-color: $secondary;
+                }
+            }
+        }
+        & .entry-content{
+            & .post-meta{
+                & ul{
+                    & li{
+                        & span{
+                            & a{
+                                &:hover{
+                                    color: $secondary;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            & h3.title{
+                &:hover{
+                    color: $secondary;
+                }
+            }
+            & .btn-link{
+                color: $secondary;
+            }
+        }
+    }
+    & .newsletter-section{
+        & .newsletter-from{
+            & form{
+                & i{
+                    color: $secondary;
+                }
+            }
+        }
+    }
+    & .contact-info-box{
+        & .icon{
+            & i{
+                color: $secondary;
+            }
+        }
+    }
+    & .footer-content{
+        & ul.widget-nav{
+            & li{
+                & a{
+                    &:hover{
+                        color: $secondary;
+                    }
+                }
+            }
+        }
+        & ul.social-link{
+            & li{
+                & a{
+                    &:hover{
+                        background-color: $secondary;
+                    }
+                }
+            }
+        }
+    }
+}

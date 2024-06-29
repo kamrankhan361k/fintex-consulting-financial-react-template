@@ -1,0 +1,230 @@
+.home-three-dark{
+    background-color: #010101;
+    & .preloader{
+        & .pre-box{
+            background-color: $blue-dark;
+        }
+    }
+    & span.sub-title{
+        color: $blue-dark;
+        &:after,
+        &:before{
+            display: none;
+        }
+    }
+    & .section-title{
+        & h2{
+            font-size: 42px;
+            line-height: 52px;
+            @media #{$lm}{
+                font-size: 32px;
+                line-height: 45px;
+            }
+        }
+    }
+    & p{
+        color: rgba(255, 255, 255, .7);
+    }
+    & .main-btn{
+        &.filled-btn{
+            &.filled-white{
+                border: 1px solid rgba(255, 255, 255, 0.102);
+                &:hover{
+                    color: $blue-dark;
+                }
+            }
+        }
+    }
+    ul.slick-dots li:after{
+        background-color: #fff;
+    }
+    ul.slick-dots li.slick-active{
+        border-color: $blue-dark;
+    }
+    & .check-style-one{
+        & li{
+            color: rgba(255, 255, 255, .7);
+            &:before{
+                color: $blue-dark;
+            }
+        }
+    }
+    & .author-rating-box-two{
+        & .rating{
+            & li{
+                & span{
+                    color: #fff;
+                }
+            }
+        }
+        & h5{
+            color: #fff;
+        }
+        & .author-thumb-title{
+            & .author-title{
+                & h4{
+                    color: $blue-dark;
+                }
+            }
+        }
+    }
+    & .navigation-two{
+        &.sticky{
+            background-color: #0a0e12;
+            &.navigation-white{
+                & .navbar-toggler{
+                    border-color: #fff;
+                    & span{
+                        background-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .sign-in-button{
+        & .btn-link{
+            color: #fff;
+            &:hover{
+                color: $blue-dark;
+            }
+        }
+    }
+    & .header-navigation{
+        & .main-menu{
+            & ul{
+                & > li{
+                    & a{
+                        &.active{
+                            color: $blue-dark;
+                        }
+                    }
+                    & .sub-menu{
+                        & li{
+                            &:hover {
+                                & > a{
+                                    color: $blue-dark;
+                                }
+                            }
+                            &.has-children{
+                                &:hover{
+                                    & > a{
+                                        &:after{
+                                            color: $blue-dark;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &:hover{
+                        & > a{
+                            color: $blue-dark;
+                            &:before{
+                                background-color: $blue-dark;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.breakpoint-on{
+            &.sticky{
+                & .main-menu{
+                    & ul{
+                        & > li{
+                            & > a{
+                                color: $heading;
+                            }
+                        }
+                    }
+                }
+            }
+            & .nav-menu{
+                & .main-menu{
+                    & ul li{
+                        & .dd-trigger{
+                            background-color: $blue-dark;
+                        }
+                    }
+                }
+            }
+        }
+        & .navbar-toggler span{
+            background-color: #fff;
+        }
+    }
+    & .banner-three{
+        & .hero-content{
+            & p{
+                color: rgba(255, 255, 255, .6);
+            }
+        }
+    }
+    .single-counter-item-three{
+        & .text{
+            & h5{
+                color: #fff;
+            }
+        }
+    }
+    & .service-item-three{
+        & .text{
+            & .btn-link{
+                &:hover{
+                    color: $blue-dark;
+                }
+            }
+        }
+    }
+    .features-item-left-box{
+        & .icon{
+            & i{
+                font-size: 45px;
+                color: $blue-dark;
+            }
+        }
+    }
+    
+    & .contact-info-box{
+        & .icon{
+            & i{
+                color: $blue-dark;
+            }
+        }
+        & .text{
+            & p{
+                & a{
+                    &:hover{
+                        color: $blue-dark;
+                    }
+                }
+            }
+        }
+    }
+    & .footer-content{
+        & ul.widget-nav{
+            & li{
+                & a{
+                    & span.status{
+                        background-color: #007eff;
+                        color: #fff;
+                    }
+                    &:hover{
+                        color: $blue-dark;
+                    }
+                }
+            }
+        }
+    }
+    .footer-social-box{
+        & ul.social-link{
+            & li{
+                & a{
+                    &:hover{
+                        background-color: $blue-dark;
+                    }
+                }
+            }
+        }
+    }
+}
